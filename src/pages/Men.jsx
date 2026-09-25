@@ -1,40 +1,40 @@
 const mensArray = [
   {
     id:1,
-    title:"Nike Women's Running leggings",
-    description:"Lightweight and flexible running shoes designed for women athletes.",
-    imgUrl:"https://m.media-amazon.com/images/I/71oYayKPl2L._AC_UF894,1000_QL80_.jpg",
+    title:"Nike Men's Running Shoes",
+    description:"Versatile and durable running shoes designed for men athletes.",
+    imgUrl:"https://hips.hearstapps.com/hmg-prod/images/nike-running-shoes-2026-697a314bbc7a3.jpg?crop=0.668xw:1.00xh;0.332xw,0&resize=640:*",
   },
   {
     id:2,
-    title:"Adidas Women's Training Leggings",
-    description:"High-performance leggings crafted for comfort and flexibility during workouts.",
-    imgUrl:"https://www.svpsports.ca/cdn/shop/files/adidas---Women_s-Optime-Training-Leggings-_H64213_-03.jpg?v=1738618370&width=2400",
+    title:"Adidas Men's Training Shorts",
+    description:"Comfortable and stylish shorts for men, ideal for training sessions.",
+    imgUrl:"https://fglprdcdn.azureedge.net/images/299398-na-1-Large.jpg",
   },
   {
     id:3,
-    title:"Nike One Women’s Sports Bra",
-    description:"Offers comfortable, supportive coverage for workouts and everyday activities.",
-    imgUrl:"https://www.misterrunning.com/images/2025-media-12/ib9926-010-A.jpg",
+    title:"Under Armour Men's Hoodie",
+    description:"Warm and breathable hoodie for men, perfect for outdoor activities.",
+    imgUrl:"https://www.svpsports.ca/cdn/shop/files/UnderArmour-Men_sRivalFleeceHoodie_1379757410_1.jpg?v=1781021623&width=2400",
   },
 
   {
     id:4,
-    title:"Puma Women's Active Tank Top",
-    description:"Stylish and comfortable tank top for women, perfect for active lifestyles.",
-    imgUrl:"https://www.svpsports.ca/cdn/shop/files/Puma---Women_s-Active-Tank-_586854-01_2_1024x.jpg?v=1682617269",
+    title:"Puma Men's Soccer Jersey",
+    description:"A comfortable Puma jersey for sports and everyday wear.",
+    imgUrl:"https://www.sourceforsports.ca/cdn/shop/products/64b6a76b2cbc38ed3ad7212f13368eaa.jpg?crop=center&height=460&v=1679414177&width=460",
   },
   {
     id:5,
-    title:"New Balance Women's Sneakers",
-    description:"Versatile sneakers designed for women with superior comfort and style.",
-    imgUrl:"https://media-www.sportchek.ca/product/div-05-footwear/dpt-80-footwear/sdpt-02-womens/334450755/new-balance-women-s-530-sneakers-e715c7d8-dab9-481b-9028-06974d4aaa0f-jpgrendition.jpg",
+    title:"New Balance Men's Sneakers",
+    description:"Classic sneakers with modern features for comfort and style.",
+    imgUrl:"https://www.newbalance.ca/dw/image/v2/AAGI_PRD/on/demandware.static/-/Library-Sites-NBUS-NBCA/default/dw421f1760/images/page-designer/2026/August/NB-12307_HCB_SideBySide_Mobile_WS327FE_WS327BL_WS327NKD_Off_Model.jpg?sw=991&sfrm=jpg",
   },
   {
     id:6,
-    title:"Reebok Women's Training Shorts",
-    description:"Breathable and lightweight shorts designed for women's training sessions.",
-    imgUrl:"https://m.media-amazon.com/images/I/71ZUDzQbEeL._AC_UY1000_.jpg",
+    title:"Reebok Men's Training T-Shirt",
+    description:"Breathable and lightweight t-shirt designed for men's training sessions.",
+    imgUrl:"https://digital.loblaws.ca/JF/F6MR075348010_EA/en/17/f6mr075348_bright_blue_lay_down_forward-facing_250.jpeg",
   },
 ]
 
@@ -53,7 +53,8 @@ function Men(){
         <div className="col-md-4 mb-3" key={item.id}>
           <div className="card">
             <img alt="" src={item.imgUrl} className="card-img-top" style={{
-              height:"200px",
+              height:"330px",
+              objectFit:"cover",
    }}/>
 <div className="card-body  text-center">
   <h5>{item.title}</h5>
