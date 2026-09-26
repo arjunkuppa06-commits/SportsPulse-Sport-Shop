@@ -41,9 +41,14 @@ const mensArray = [
 
 
 function Men(){
+
+function AddToCart2(){
+alert(title + " Successfully Added To Cart")
+}
+
     return(
         <>
-        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"></link>
             <div class="container text-center my-3">
   
   <div class="row my-3">
@@ -57,10 +62,10 @@ function Men(){
               objectFit:"cover",
    }}/>
 <div className="card-body  text-center">
-  <h5>{item.title}</h5>
+  <h5 id="title">{item.title}</h5>
   <p>{item.description}</p>
 
-  <button className="btn btn-success">
+  <button className="btn btn-success" onClick={AddToCart2}>
     <i className="bi bi-cart-plus-fill">
     </i> Add to Cart 
   <i className="bi bi-cart-plus-fill"></i></button>

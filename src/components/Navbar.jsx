@@ -10,6 +10,7 @@ return(
     <Link className="nav-link d-inline mx-2" to="/men">Men's Section</Link>
     <Link className="nav-link d-inline mx-2" to="/women">Women's Section</Link>
     <Link className="nav-link d-inline mx-2" to="/register">Register</Link>
+    <Link className="nav-link d-inline mx-2" to="/cart">Cart</Link>
 </div>
     </nav>
 )

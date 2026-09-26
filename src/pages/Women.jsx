@@ -46,12 +46,9 @@ function addToCart(itemName){
 alert(itemName + " Successfully Added To Cart");
 }
 
-
-
-
     return(
         <>
-        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"></link>
             <div class="container text-center my-3">
   
   <div class="row my-3">

@@ -1,4 +1,9 @@
 function Home(){
+
+function AddToCart3(itemName){
+alert(itemName + " Successfully Added To Cart")
+}
+
     return(
         <>
         <header className="bg-dark text-light p-1 text-center">
@@ -23,7 +28,7 @@ function Home(){
     alt="image" className="img-fluid" height="300" width="350"/>
     <h5>Nike Air Zoom Pegasus</h5>
 <p>A versatile and comfortable running shoe with responsive cushioning.</p>
-<button className="btn btn-success">Add to Cart</button>
+<button className="btn btn-success" onClick={AddToCart3}>Add to Cart</button>
   </div>
 
 <div class="col-md-3">
@@ -31,21 +36,21 @@ function Home(){
     alt="image" className="img-fluid"/>
     <h5>Adidas Predator Soccer Cleats</h5>
 <p>High-performance soccer cleats designed for precision and control.</p>
-<button className="btn btn-success">Add to Cart</button>
+<button className="btn btn-success" onClick={AddToCart3}>Add to Cart</button>
   </div>
 
   <div class="col-md-3">
     <img src="https://m.media-amazon.com/images/I/819hY6qLC0L.jpg" alt="image" className="img-fluid" height="400"/>
     <h5>Wilson Evolution Basketball</h5>
 <p>Official size 6 basketball with exceptional grip and durability.</p>
-<button className="btn btn-success">Add to Cart</button>
+<button className="btn btn-success" onClick={AddToCart3}>Add to Cart</button>
   </div>
 
 <div class="col-md-3">
     <img src="https://underarmour.scene7.com/is/image/Underarmour/PS1361518-001_HF?rp=standard-0pad%7Cpdp&qlt=85&bgc=f0f0f0&wid=800&hei=1000&op_usm=1.75%2C0.3%2C2%2C0" alt="image" className="img-fluid" height="400"/>
     <h5>Under Armour HeatGear T-Shirt</h5>
 <p>Lightweight and breathable t-shirt for maximum comfort during workouts.</p>
-<button className="btn btn-success">Add to Cart</button>
+<button className="btn btn-success" onClick={AddToCart3}>Add to Cart</button>
   </div>
 
 </div>
